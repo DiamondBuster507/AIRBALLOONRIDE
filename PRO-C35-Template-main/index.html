@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+    <!--Add your Firsebase Config here below. -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // Initialize Firebase
+      const firebaseConfig = {
+  apiKey: "AIzaSyAYz6QkrEC6Yxs2b9htLW_YnzdGKOnCxhY",
+  authDomain: "air-ballon-ride-1515e.firebaseapp.com",
+  databaseURL: "https://air-ballon-ride-1515e-default-rtdb.firebaseio.com",
+  projectId: "air-ballon-ride-1515e",
+  storageBucket: "air-ballon-ride-1515e.appspot.com",
+  messagingSenderId: "526931179377",
+  appId: "1:526931179377:web:09164d73c346c56a2668d0"
+};
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
